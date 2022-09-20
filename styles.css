@@ -1,0 +1,99 @@
+/* div{
+    border: 1px solid red;
+} */
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #dea3a8;
+}
+.all {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #d6c490;
+  box-shadow: 0px 5px 10px #bb8c90;
+  z-index: 1;
+}
+.headerimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+}
+.headercaidang {
+  height: 100px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.headercaidang ul {
+  width: 100%;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  padding: 0%;
+  font-weight: 900;
+}
+.nierou {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.nierouwenzhang {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nierouwenzhang h1 {
+  margin-bottom: 10px;
+}
+.nierouwenzhang p {
+  width: 50%;
+  font-weight: 900;
+}
+.nierouyouqu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.nierouyouqu div {
+  width: 27%;
+  min-width: 380px;
+  height: 50vh;
+  margin: 3%;
+  background: rgba(160, 221, 147, 0.5);
+  backdrop-filter: blur(9.5px);
+  -webkit-backdrop-filter: blur(9.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.guanggaowei{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.footer {
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  background-color: #d6c490;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.niajiamin {
+  font-weight: 900;
+  color: rgb(75, 75, 75);
+}
